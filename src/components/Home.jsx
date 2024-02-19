@@ -17,7 +17,7 @@ const Home = () => {
         <p className="text-gray-500 py-4 max-w-md">
            I have 2 years of experience in cloud computing and web development.
           Currently, I am a software engineering grad student at the University of Maryland, College Park and working on creating web application using technologies like
-          React, Tailwind, Next.js and Mongodb.
+          React, Node.js, Next.js and Mongodb.
         </p>
         <div>
           <Link
@@ -33,13 +33,7 @@ const Home = () => {
           </Link>
         </div>
       </div>
-      <div>
-        <img
-          src={me}  
-          alt="my profile"
-          className="rounded-2xl mx-auto w-2/3 md:w-full"
-        />
-      </div>
+      
     </div>
   </div>
   );

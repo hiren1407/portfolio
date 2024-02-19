@@ -1,5 +1,8 @@
 import React from 'react';
-import code from '../assets/code2.png';
+import currency from '../assets/currency.png';
+import ecommerce from '../assets/ecommerce.jpeg'
+import facial from '../assets/facial.jpeg'
+import weather from '../assets/weather.jpeg'
 
 const Works = () => {
   return (
@@ -15,7 +18,7 @@ const Works = () => {
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
             {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${code})` }}
+            style={{ backgroundImage: `url(${ecommerce})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -25,7 +28,7 @@ const Works = () => {
               </span>
               <p className='text-center'>An e-commerce website using Angular, Node.js and MongoDB on which users can buy and sell anything like properties, vehicles, electronic devices etc.</p>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a href='https://github.com/hiren1407/postkarde.com'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -34,7 +37,7 @@ const Works = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${code})` }}
+            style={{ backgroundImage: `url(${facial})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -45,7 +48,7 @@ const Works = () => {
               <p className='text-center'>A facial recognition-based faculty attendance system using Python, OpenCV and MongoDB in which faculties in the institutional organization can mark their attendance by looking into the camera.
 </p>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a href='https://github.com/hiren1407/smartcam'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -54,7 +57,7 @@ const Works = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${code})` }}
+            style={{ backgroundImage: `url(${weather})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -64,7 +67,7 @@ const Works = () => {
               </span>
               <p className='text-center'>A cross-platform app incorporating React Native through which a user can get weather updates around the globe.</p>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a href='https://github.com/hiren1407/weather-app'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -73,7 +76,7 @@ const Works = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${code})` }}
+            style={{ backgroundImage: `url(${currency})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -83,7 +86,7 @@ const Works = () => {
               </span>
               <p className='text-center'>A cross-platform app using React Native on which a user can convert one currency into another to check its corresponding value and get the exchange rates of different currencies.</p>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a href='https://github.com/hiren1407/currency-converter'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>

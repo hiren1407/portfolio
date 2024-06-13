@@ -14,22 +14,22 @@ const Skills = () => {
                   <p className='my-4'>Angular</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <p className='my-4'>Typescript</p>
+                  <p className='my-4'>TypeScript</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <p className='my-4'>JAVASCRIPT</p>
+                  <p className='my-4'>JavaScript</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <p className='my-4'>REACT</p>
+                  <p className='my-4'>React</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <p className='my-4'>GIT</p>
+                  <p className='my-4'>Git</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <p className='my-4'>NODE JS</p>
+                  <p className='my-4'>Node.js</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <p className='my-4'>MONGO DB</p>
+                  <p className='my-4'>MongoDB</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <p className='my-4'>Azure</p>
@@ -38,7 +38,7 @@ const Skills = () => {
                   <p className='my-4'>Python</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <p className='my-4'>MySQL</p>
+                  <p className='my-4'>SQL</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <p className='my-4'>C#</p>

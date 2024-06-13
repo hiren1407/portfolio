@@ -16,7 +16,7 @@ const Home = () => {
         </h2>
         <p className="text-gray-500 py-4 max-w-md">
            I have 2 years of experience in cloud computing and web development.
-          Currently, I am a software engineering grad student at the University of Maryland, College Park and working on creating web application using technologies like
+          Currently, I am a software engineering grad student at the University of Maryland, College Park and working on creating web applications using technologies like
           React, Node.js, Next.js and Mongodb.
         </p>
         <div>

@@ -4,6 +4,7 @@ import ecommerce from '../assets/ecommerce.jpeg'
 import facial from '../assets/facial.jpeg'
 import weather from '../assets/weather.jpeg'
 import netflix from '../assets/netflix.png'
+import youtube from '../assets/youtube.png'
 
 const Works = () => {
   return (
@@ -18,6 +19,33 @@ const Works = () => {
 {/* Container */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
             {/* Grid Item */}
+
+            <div
+            style={{ backgroundImage: `url(${youtube})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+              <span className=' text-lg font-bold text-white tracking-wider'>
+                My Youtube
+              </span>
+              <p className='text-center'>A dynamic YouTube frontend application using React, Tailwind, and Redux. Integrated features include live chat, YouTube API calls, and debouncing for performance optimization.
+
+</p>
+              <div className='pt-8 text-center'>
+                <a href='https://hiren-youtube.vercel.app/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Live Demo
+                  </button>
+                </a>
+                <a href='https://github.com/hiren1407/My-Youtube'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
 
             <div
             style={{ backgroundImage: `url(${netflix})` }}

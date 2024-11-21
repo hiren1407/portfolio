@@ -5,20 +5,74 @@ import facial from '../assets/facial.jpeg'
 import weather from '../assets/weather.jpeg'
 import netflix from '../assets/netflix.png'
 import youtube from '../assets/youtube.png'
+import upskilled from '../assets/upskilled.jpeg'
+import dev from '../assets/dev.png'
 
 const Works = () => {
   return (
-    <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
+    <div name='work' className='w-full h-auto text-gray-300 bg-[#0a192f]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8 w-full flex justify-center items-center flex-col'>
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-cyan-500'>
-            Work
+            Works
           </p>
           <p className='py-6 text-2xl'>Check out my projects.</p>
         </div>
 {/* Container */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
             {/* Grid Item */}
+            <div
+            style={{ backgroundImage: `url(${upskilled})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+              <span className=' text-lg font-bold text-white tracking-wider'>
+                UpSkilled
+              </span>
+              <p className='text-center'>An ELMS platform made with React, Tailwind, Redux, Java Spring backend, and MySQL. Includes role-based access for admin, instructor, and employee roles.
+
+</p>
+              <div className='pt-8 text-center'>
+                <a href='https://upskilled.vercel.app/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Live Demo
+                  </button>
+                </a>
+                <a href='https://github.com/hiren1407/UpSkilled-Frontend'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${dev})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+              <span className=' text-lg font-bold text-white tracking-wider'>
+                DevTinder
+              </span>
+              <p className='text-center'>Developed a full-stack networking app for developers using React, Tailwind CSS, Node.js, and MongoDB, allowing developers to connect through connection requests.
+
+</p>
+              <div className='pt-8 text-center'>
+                <a href='https://devtinder-ui-2.onrender.com/login'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Live Demo
+                  </button>
+                </a>
+                <a href='https://github.com/hiren1407/devTinder-ui'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
 
             <div
             style={{ backgroundImage: `url(${youtube})` }}
@@ -27,7 +81,7 @@ const Works = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
               <span className=' text-lg font-bold text-white tracking-wider'>
-                My Youtube
+                ReactTube
               </span>
               <p className='text-center'>A dynamic YouTube frontend application using React, Tailwind, and Redux. Integrated features include live chat, YouTube API calls, and debouncing for performance optimization.
 
@@ -98,7 +152,7 @@ const Works = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
               <span className=' text-lg font-bold text-white tracking-wider'>
-                Smart Cam
+                FaceMark
               </span>
               <p className='text-center'>A facial recognition-based faculty attendance system using Python, OpenCV and MongoDB in which faculties in the institutional organization can mark their attendance by looking into the camera.
 </p>

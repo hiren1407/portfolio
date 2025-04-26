@@ -7,6 +7,7 @@ import netflix from '../assets/netflix.png'
 import youtube from '../assets/youtube.png'
 import upskilled from '../assets/upskilled.jpeg'
 import dev from '../assets/dev.png'
+import travelagent from '../assets/travelagent.png'
 
 const Works = () => {
   return (
@@ -21,6 +22,34 @@ const Works = () => {
 {/* Container */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
             {/* Grid Item */}
+            <div
+            style={{ backgroundImage: `url(${travelagent})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+              <span className=' text-lg font-bold text-white tracking-wider'>
+                TravelBuddy
+              </span>
+              <p className='text-center'>Developed a smart travel app using React, FastAPI, and Gemini AI, offering AI-based trip planning and real-time chatbot support. Integrated third-party APIs to provide live data on flights, hotels, restaurants, and attractions, ensuring a seamless travel experience.
+
+
+
+</p>
+              <div className='pt-8 text-center'>
+                <a href='https://travel-buddy-aiagent.vercel.app/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Live Demo
+                  </button>
+                </a>
+                <a href='https://github.com/hiren1407/TravelBuddy-Frontend'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
             <div
             style={{ backgroundImage: `url(${upskilled})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -48,6 +77,31 @@ const Works = () => {
             </div>
           </div>
           <div
+            style={{ backgroundImage: `url(${facial})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+              <span className=' text-lg font-bold text-white tracking-wider'>
+                FaceMark
+              </span>
+              <p className='text-center'>Created a web and desktop application for automated attendance using facial recognition. Built with React, Node.js, and Python (Tkinter, OpenCV), the system streamlines leave management and attendance tracking with high accuracy and scalability.
+</p>
+              <div className='pt-8 text-center'>
+              <a href='https://smartcam.vercel.app/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Live Demo
+                  </button>
+                </a>
+                <a href='https://github.com/hiren1407/smartcam-desktop'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
             style={{ backgroundImage: `url(${dev})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
@@ -60,7 +114,7 @@ const Works = () => {
 
 </p>
               <div className='pt-8 text-center'>
-                <a href='https://devtinder-ui-2.onrender.com/login'>
+                <a href='http://43.204.112.221'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Live Demo
                   </button>
@@ -145,26 +199,7 @@ const Works = () => {
               </div>
             </div>
           </div>
-          <div
-            style={{ backgroundImage: `url(${facial})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
-              <span className=' text-lg font-bold text-white tracking-wider'>
-                FaceMark
-              </span>
-              <p className='text-center'>A facial recognition-based faculty attendance system using Python, OpenCV and MongoDB in which faculties in the institutional organization can mark their attendance by looking into the camera.
-</p>
-              <div className='pt-8 text-center'>
-                <a href='https://github.com/hiren1407/smartcam'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
+          
           <div
             style={{ backgroundImage: `url(${weather})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'

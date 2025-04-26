@@ -29,7 +29,7 @@ const About = () => {
                 {" "}
                 A software engineer with experience in building Responsive and
                 Scalable Web apps. I am well-knowledged in UI/UX principles and
-                practices. In addition to web development, I also possess extensive knowledge in Azure Cloud.
+                practices. In addition to web development, I also possess extensive knowledge in Azure & AWS Cloud.
               </p>
             </div>
           </div>
